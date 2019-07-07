@@ -1,0 +1,151 @@
+/********* Main Page ***********/
+.uty_wrapper{
+	position:relative;
+}
+
+.tab_control {
+    margin: 10px 0px 20px 0;
+	display: inline-block;
+}
+
+.tab_control ul {
+	padding: 0px;
+}
+
+.tab_control li {
+    display: inline-block;
+	float: left;
+}
+
+.tab_control li a {
+ 	background: #c3c3c3;
+	text-decoration: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    display: block;
+    border-right: 1px solid darkgrey;
+}
+
+.tab_control li a:active, .tab_control li a:focus, .tab_control li a:hover{
+	color: #fff;
+}
+
+.tab_content {
+    display: block;
+    clear: both;
+}
+
+li.video_item {
+    width: 30%;
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+li.video_item:nth-child(3n+2){
+	margin: 0 5% 0 5%;
+}
+
+li.video_item a {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+}
+
+.left-sec {
+    width: 70%;
+    display: inline-block;
+    float: left;
+}
+
+.right-sec {
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+
+.right-sec a {
+    margin: 5px;
+}
+
+p.removeSuccess {
+    font-weight: bold;
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 200px;
+    background: rgba(91, 188, 217, 0.21);
+    padding: 15px 35px;
+    text-align: center;
+    color: #000;
+    transform: translate(-50%,-50%);
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+input.uty_input_field {
+    width: 50%;
+}
+
+/********* FAQ Page ***********/
+
+.uty_faq_section, .uty_faq_sidebar {
+    width: 75%;
+    display: inline-block;
+    float: left;
+}
+.uty_faq_sidebar {
+	width: 25%;
+}
+.uty_faq_section > div, .uty_faq_sidebar > div , .faq_top_section {
+	padding: 10px;
+}
+.accordion_section {
+    width: 80%;
+    border: 1px solid cadetblue;
+    margin: 0 0 30px 0;
+}
+h4.accordion_heading {
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    padding: 10px 10px 10px 40px;
+    background-position: 5px 7px;
+    cursor: pointer;
+    margin: 0 0 0 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+p.accordion_content {
+    display: none;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}
+.contact-section h2 {
+    margin-top: 0px;
+}
+.hiring-section {
+    background: #cccccc;
+}
+form.hiringForm input, form.hiringForm texarea{
+	width: 100%;
+	margin: 10px 0;
+	display: block;
+}
+form.hiringForm input[type="submit"] {
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 0px;
+    padding: 8px 0 9px 0;
+    background: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.donation-section a {
+	display: block;
+	text-align: center;
+}
+.donation-section img {
+    max-width: 120px;
+}
